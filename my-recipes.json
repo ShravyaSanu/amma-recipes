@@ -1,7 +1,7 @@
 {
  "app": "amma-recipes",
  "version": "1.1.0",
- "savedAt": "2026-11-24T13:27:01.647Z",
+ "savedAt": "2026-11-24T13:27:27.249Z",
  "data": {
   "v": 2,
   "recipes": {},
@@ -14,10 +14,18 @@
     "by": "Amma",
     "date": "2026-07-20",
     "updated": "2026-11-24T13:26:58.636Z"
+   },
+   "l-yt-yCGo9K-ejXI": {
+    "id": "l-yt-yCGo9K-ejXI",
+    "title": "Davangere Benne Dosa",
+    "url": "https://youtu.be/yCGo9K-ejXI",
+    "by": "Amma",
+    "date": "2025-08-24",
+    "updated": "2026-11-24T13:27:24.877Z"
    }
   },
   "deletedLinks": {},
   "favs": {},
-  "updatedAt": "2026-11-24T13:26:58.636Z"
+  "updatedAt": "2026-11-24T13:27:24.878Z"
  }
 }
