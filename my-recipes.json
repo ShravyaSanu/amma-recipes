@@ -1,7 +1,7 @@
 {
  "app": "amma-recipes",
  "version": "1.1.0",
- "savedAt": "2026-11-24T13:28:07.752Z",
+ "savedAt": "2026-11-24T13:28:31.966Z",
  "data": {
   "v": 2,
   "recipes": {},
@@ -30,10 +30,18 @@
     "by": "Amma",
     "date": "2023-09-17",
     "updated": "2026-11-24T13:28:05.465Z"
+   },
+   "l-yt-fu1yPcXlImI": {
+    "id": "l-yt-fu1yPcXlImI",
+    "title": "Majjige Saaru",
+    "url": "https://youtu.be/fu1yPcXlImI",
+    "by": "Me",
+    "date": "2024-04-15",
+    "updated": "2026-11-24T13:28:29.716Z"
    }
   },
   "deletedLinks": {},
   "favs": {},
-  "updatedAt": "2026-11-24T13:28:05.465Z"
+  "updatedAt": "2026-11-24T13:28:29.716Z"
  }
 }
