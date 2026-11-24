@@ -1,0 +1,23 @@
+{
+ "app": "amma-recipes",
+ "version": "1.1.0",
+ "savedAt": "2026-11-24T13:27:01.647Z",
+ "data": {
+  "v": 2,
+  "recipes": {},
+  "deleted": {},
+  "links": {
+   "l-yt-SwVuEA7RD0E": {
+    "id": "l-yt-SwVuEA7RD0E",
+    "title": "Gullagayi Engayi",
+    "url": "https://youtu.be/SwVuEA7RD0E",
+    "by": "Amma",
+    "date": "2026-07-20",
+    "updated": "2026-11-24T13:26:58.636Z"
+   }
+  },
+  "deletedLinks": {},
+  "favs": {},
+  "updatedAt": "2026-11-24T13:26:58.636Z"
+ }
+}
