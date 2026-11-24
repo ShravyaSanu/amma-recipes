@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Amma's Recipes</title>
+  <meta name="description" content="Amma & Muddu's family recipes – works offline.">
+  <meta name="theme-color" content="#a34a00">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    /* Apply saved display settings before first paint to avoid a flash. */
+    try {
+      var s = JSON.parse(localStorage.getItem("amma-recipes-settings") || "{}");
+      var r = document.documentElement;
+      if (s.theme && s.theme !== "system") r.setAttribute("data-theme", s.theme);
+      if (s.contrast) r.setAttribute("data-contrast", "high");
+      if (s.scale) r.style.setProperty("--scale", s.scale);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="app-header">
+    <button class="back" id="backBtn" type="button" aria-label="Go back" hidden>←</button>
+    <p class="app-title" id="appTitle">Amma & Muddu's Recipes</p>
+    <span class="offline-pill" id="netStatus" role="status" aria-live="polite"></span>
+  </header>
+
+  <main id="main" tabindex="-1"></main>
+
+  <nav class="bottom-nav" aria-label="Main">
+    <ul>
+      <li><a href="#/" data-nav="home"><span class="ico" aria-hidden="true">🏠</span>Home</a></li>
+      <li><a href="#/links" data-nav="links"><span class="ico" aria-hidden="true">🔗</span>Links</a></li>
+      <li><a href="#/add" data-nav="add"><span class="ico" aria-hidden="true">➕</span>Add</a></li>
+      <li><a href="#/settings" data-nav="settings"><span class="ico" aria-hidden="true">⚙️</span>Settings</a></li>
+    </ul>
+  </nav>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="recipes.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
