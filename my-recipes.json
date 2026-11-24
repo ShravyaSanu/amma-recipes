@@ -1,28 +1,13 @@
 {
  "app": "amma-recipes",
  "version": "1.1.0",
- "savedAt": "2026-11-24T16:25:15.529Z",
+ "savedAt": "2026-11-24T16:27:07.309Z",
  "data": {
   "v": 2,
-  "recipes": {
-   "uppittu-mwuw8vh1": {
-    "title": "Uppittu",
-    "cat": "breakfast",
-    "by": "Amma",
-    "parts": [
-     {
-      "h": "Bombay Rava Upama",
-      "ing": "Bombay Rava",
-      "steps": "Chop"
-     }
-    ],
-    "id": "uppittu-mwuw8vh1",
-    "date": "2026-11-24",
-    "updated": "2026-11-24T16:13:11.893Z",
-    "custom": true
-   }
+  "recipes": {},
+  "deleted": {
+   "uppittu-mwuw8vh1": "2026-11-24T16:27:04.882Z"
   },
-  "deleted": {},
   "links": {
    "l-yt-SwVuEA7RD0E": {
     "id": "l-yt-SwVuEA7RD0E",
@@ -75,6 +60,6 @@
   },
   "deletedLinks": {},
   "favs": {},
-  "updatedAt": "2026-11-24T16:13:11.893Z"
+  "updatedAt": "2026-11-24T16:27:04.882Z"
  }
 }
