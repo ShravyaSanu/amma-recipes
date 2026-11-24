@@ -1,7 +1,7 @@
 {
  "app": "amma-recipes",
  "version": "1.1.0",
- "savedAt": "2026-11-24T13:28:59.306Z",
+ "savedAt": "2026-11-24T13:29:28.594Z",
  "data": {
   "v": 2,
   "recipes": {},
@@ -46,10 +46,18 @@
     "by": "Amma",
     "date": "2024-05-01",
     "updated": "2026-11-24T13:28:57.084Z"
+   },
+   "l-yt-rA62FQpdkCU": {
+    "id": "l-yt-rA62FQpdkCU",
+    "title": "White Pasta without Maida",
+    "url": "https://youtu.be/rA62FQpdkCU",
+    "by": "Amma",
+    "date": "2025-06-23",
+    "updated": "2026-11-24T13:29:26.305Z"
    }
   },
   "deletedLinks": {},
   "favs": {},
-  "updatedAt": "2026-11-24T13:28:57.084Z"
+  "updatedAt": "2026-11-24T13:29:26.305Z"
  }
 }
