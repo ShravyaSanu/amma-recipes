@@ -1,6 +1,6 @@
 /* Service worker: saves the whole app on the phone so it opens without internet.
    Bump CACHE whenever any file changes so phones pick up the new version. */
-const CACHE = "amma-recipes-v1";
+const CACHE = "amma-recipes-v2";
 const FILES = [
   "./",
   "./index.html",

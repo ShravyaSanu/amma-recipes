@@ -133,8 +133,14 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .app-title { font-size: 1.15rem; font-weight: 700; margin: 0; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .offline-pill {
   font-size: .75rem; padding: .2rem .6rem; border-radius: 999px; border: 1px solid var(--border); color: var(--muted);
-  white-space: nowrap;
+  white-space: nowrap; text-decoration: none; min-height: 36px; display: inline-flex; align-items: center;
 }
+.offline-pill[hidden] { display: none; }
+.steps-plain { padding-left: 1.3rem; margin: 0 0 1rem; }
+.steps-plain li { margin-bottom: .45rem; }
+code { font-family: ui-monospace, Consolas, monospace; background: var(--surface-2); padding: 0 .3rem; border-radius: 4px; font-size: .9em; }
+.card h3 { font-size: 1rem; margin-top: .75rem; }
+.card .error { color: var(--danger); font-weight: 600; }
 
 main { max-width: 760px; margin: 0 auto; padding: 1rem 16px 2rem; }
 main:focus { outline: none; }

@@ -10,8 +10,13 @@ An offline recipe book for Android, built from our family WhatsApp recipe chat.
 3. Open it once from the home screen icon. From then on it works with no internet.
 
 ## Using it
-- **Add / Edit** recipes and links right in the app – saved on the phone.
-- **Settings → Share backup** now and then (to WhatsApp / Drive). Use **Restore from backup** on a new phone.
+- **Add / Edit** recipes and links right in the app – saved on the phone first.
+- **Cloud sync (Settings → Cloud sync):** turn on once with a GitHub key (the app shows the steps). After that every add, edit,
+  delete and favourite uploads automatically to `my-recipes.json` on the
+  [`recipes-data` branch](https://github.com/ShravyaSanu/amma-recipes/blob/recipes-data/my-recipes.json).
+  Offline changes upload when internet is back. On a new phone, turn on sync and everything comes back.
+  The label at the top right shows the state: ☁️ Synced, Waiting to sync, Offline · will sync, or ⚠️ Sync stopped (make a new key).
+- **Settings → Share backup** still makes an extra backup file if you want one.
 - Text size, dark mode and high contrast are in **Settings**.
 
 ## Changing the built-in recipes (on a laptop)
