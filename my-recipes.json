@@ -1,7 +1,7 @@
 {
  "app": "amma-recipes",
  "version": "1.1.0",
- "savedAt": "2026-11-24T13:28:31.966Z",
+ "savedAt": "2026-11-24T13:28:59.306Z",
  "data": {
   "v": 2,
   "recipes": {},
@@ -38,10 +38,18 @@
     "by": "Me",
     "date": "2024-04-15",
     "updated": "2026-11-24T13:28:29.716Z"
+   },
+   "l-yt-uqjPJA6YHW8": {
+    "id": "l-yt-uqjPJA6YHW8",
+    "title": "Spicy Coastal Jackfruit Curry",
+    "url": "https://youtu.be/uqjPJA6YHW8",
+    "by": "Amma",
+    "date": "2024-05-01",
+    "updated": "2026-11-24T13:28:57.084Z"
    }
   },
   "deletedLinks": {},
   "favs": {},
-  "updatedAt": "2026-11-24T13:28:29.716Z"
+  "updatedAt": "2026-11-24T13:28:57.084Z"
  }
 }
