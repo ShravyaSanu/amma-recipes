@@ -1,7 +1,7 @@
 {
  "app": "amma-recipes",
  "version": "1.1.0",
- "savedAt": "2026-11-24T13:27:27.249Z",
+ "savedAt": "2026-11-24T13:28:07.752Z",
  "data": {
   "v": 2,
   "recipes": {},
@@ -22,10 +22,18 @@
     "by": "Amma",
     "date": "2025-08-24",
     "updated": "2026-11-24T13:27:24.877Z"
+   },
+   "l-yt-6cDyr4ncn3g": {
+    "id": "l-yt-6cDyr4ncn3g",
+    "title": "Idli using uppit rava",
+    "url": "https://youtube.com/watch?v=6cDyr4ncn3g",
+    "by": "Amma",
+    "date": "2023-09-17",
+    "updated": "2026-11-24T13:28:05.465Z"
    }
   },
   "deletedLinks": {},
   "favs": {},
-  "updatedAt": "2026-11-24T13:27:24.878Z"
+  "updatedAt": "2026-11-24T13:28:05.465Z"
  }
 }
